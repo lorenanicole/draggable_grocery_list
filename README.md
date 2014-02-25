@@ -1,0 +1,1 @@
+Grocery list using jQuery's draggable and droppable functions.
