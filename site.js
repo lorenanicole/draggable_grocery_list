@@ -32,4 +32,24 @@ groceryList.prototype.sum = function() {
 }
 
 
+// original non-oop js code
+
+// $(document).ready(function() {
+//   $('.item').draggable({ helper: 'clone' });
+//   var nums = [];
+//   $('#grocery_list').droppable({
+//       drop: function( event, ui ) {
+//         $( this ).find("tbody").append("<tr>" + ui.draggable.html() + "</tr>");
+//         var arr = $("#grocery_list tbody .item_price").map(function() { return $(this).text() }).get();
+//         var total = 0;
+//         for (var i = 0; i < arr.length; i++) {
+//           total += parseFloat(arr[i]);
+//           $("#total_cost").empty();
+//           $("#total_cost").text(total);
+//         }
+//     }
+//   });
+// });
+
+
 
